@@ -98,7 +98,7 @@ const EditProfilePage = () => {
       >
         {/* <Box flexBasis={isNonMobileScreens ? "26%" : undefined}></Box> */}
         <Box
-          flexBasis={isNonMobileScreens ? "42%" : undefined}
+          flexBasis={isNonMobileScreens ? "57%" : undefined}
           mt={isNonMobileScreens ? undefined : "2rem"}
         >
           <WidgetWrapper m="2rem 0">
@@ -286,7 +286,7 @@ const EditProfilePage = () => {
             </Formik>
           </WidgetWrapper>
         </Box>
-        <Box alignItems="center" flexBasis="42%">
+        <Box alignItems="center" flexBasis="32%">
           <Box m="2rem 0">
             <img
               width={"440px"}
