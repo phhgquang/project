@@ -58,7 +58,7 @@ const EditProfilePage = () => {
     for (let value in values) {
       formData.append(value, values[value]);
     }
-    if (values.picture.name != undefined) {
+    if (values.picture.name !== undefined) {
         formData.append("picturePath", values.picture.name);
     }
     
