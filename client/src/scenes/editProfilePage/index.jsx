@@ -63,7 +63,7 @@ const EditProfilePage = () => {
     }
     
     const savedUserResponse = await fetch(
-      `http://localhost:3001/users/${userId}/edit`,
+      `https://back-end-ku2j.onrender.com/users/${userId}/edit`,
       {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
@@ -292,7 +292,7 @@ const EditProfilePage = () => {
               width={"440px"}
               height="440px"
               alt="user"
-              src={`http://localhost:3001/assets/${picturePath}`}
+              src={`https://back-end-ku2j.onrender.com/assets/${picturePath}`}
             />
           </Box>
         </Box>
